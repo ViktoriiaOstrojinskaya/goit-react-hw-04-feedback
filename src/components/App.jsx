@@ -31,7 +31,7 @@ class App extends Component {
     const { good, neutral, bad } = this.state;
     return (
       <MainPage>
-        <Section title="Please leave feedback">
+        <Section title="Please leave feedback NEW-4">
           <FeedbackOptions
             options={['good', 'neutral', 'bad']}
             onLeaveFeedback={this.onLeaveFeedback}
